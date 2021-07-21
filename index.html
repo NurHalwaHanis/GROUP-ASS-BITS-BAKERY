@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Bakery Bits</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family:"Times New Roman", serif}
+h1,h2,h3,h4,h5,h6 {font-family:serif; letter-spacing:5px}
+{
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*/
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+</style>
+<body background="images/background.jpg">
+
+<!-- Navigation (Sits on top) -->
+<div class="w3-top w3-bar w3-brown w3-padding w3-card w3-wide">
+<a href="#home" class="w3-bar-item w3-button">Welcome to our website!</a>
+
+<!-- Right-sided navbar links. Hide them on small screens -->
+<div class="w3-right w3-hide-small">
+<a href="#about" class="w3-bar-item-brown w3-button">About</a>
+<a href="#menu" class="w3-bar-item w3-button">Menu</a>
+<a href="#contact" class="w3-bar-item w3-button">Contact</a>
+<a href="#location" class="w3-bar-item w3-button">Location</a>
+</div>
+</div>
+
+<!-- Start Content -->
+<div id="home" class="w3-content">
+
+<!-- Image in Display Container -->
+<div class="w3-padding-top-48">
+<div class="w3-display-container">
+<img src="images/1.jpg" alt="Dessert" style="width:70% ">
+
+<div class="w3-display-bottomleft w3-padding-small w3-opacity w3-hide-small">
+<h2>Bakery Bits</h2>
+</div>
+
+</div>
+</div>
+
+<!-- About -->
+<div id="about" class="w3-padding-top-64">
+<div class="w3-row">
+
+<div class="w3-half w3-padding-large w3-hide-small">
+<img src="images/logo.jpeg" class="w3-round w3-image w3-opacity-min" alt="logo" style="width:100%">
+</div>
+
+<div class="w3-half w3-padding-large">
+<h1 class="w3-center ;w3-container w3-brown">About Us</h1><br>
+<h5 class="w3-center">Tradition since 1999</h5>
+<p class="w3-large">
+Bakery bits is a malaysian bakery that was founded in 1999 by bakers addict, The Jemah's. </p>
+			
+			<p>The idea for establishment of this bakery was a combination of opinion and efforts by the four head that we called The Jemah's Cantik. The inner and outer design of this bakery was designed by Sabrina and Halwa. Meanwhile for the production of dessert box, the idea was contributed by Ain and Syakilah. The obsession of us towards bakery has been the strength to keep this bakery alive from back then until now.
+			<span></span>
+			<br>
+			<p>In 2002, we decided to expand this business towards a long term and famous bakery. Thus, this website and bakery bits teams was born. The bakery bits teams has managed to fuldfilled 10,000 online orders from 2002 until May 2021 and are blessed with the support from our beloved cutie customers.</p>
+			<span></span>
+			<p>We, from the Bakery Bits believes that everyone should taste the premium chocolate taste as chocolate is a theraphy for people. In fact, chocolate could bring happiness and the taste could makes you feels like live in world heaven!</p></p>
+
+</div>
+
+</div>
+</div>
+
+<!-- Menu -->
+<div id="menu" class="w3-padding-top-64">
+<h1 class="w3-center ;w3-container w3-brown">Our Menu</h1>
+
+
+<div class="w3-col l6 m6 w3-padding-large">
+
+<h4>Nutella Strawberry Cheesecake</h4>
+<p class="w3-text-grey">
+RM 55</p>
+
+<h4>Cadburry Cheesecake</h4>
+<p class="w3-text-grey">
+RM 55</p>
+
+<h4>Golden Lotus Cheese</h4>
+<p class="w3-text-grey">
+RM 70</p>
+
+<h4>Chocolate Crossiant</h4>
+<p class="w3-text-grey">
+RM 12 (1 Set)</p>    
+
+<h4>Cinnamon Rolls</h4>
+<p class="w3-text-grey">
+RM 20 (1 Set)</p>
+
+<h4>Cupcake Heaven Topping</h4>
+<p class="w3-text-grey">
+RM 12 (3 Pcs)</p>
+
+<h4>Bento Choc</h4>
+<p class="w3-text-grey">
+RM 25</p>
+
+<h4>Pizza Brownies</h4>
+<p class="w3-text-grey">
+RM 50</p>    
+
+<h4>Set Brownies Pcs</h4>
+<p class="w3-text-grey">
+RM 30</p>
+
+<h4>Java Cookies</h4>
+<p class="w3-text-grey">
+RM 15 (3 pcs</p>
+
+<h4>Choco Tart</h4>
+<p class="w3-text-grey">
+RM 5 (4 pcs)</p>
+
+<h4>Doughnut</h4>
+<p class="w3-text-grey">
+RM 3 (1 pcs)</p>    
+</div>
+</div>
+
+<div class="w3-col l6 m6 w3-padding-large; margin-top w3-right">
+<img src="images/1.jpg" class="w3-round w3-image " alt="Menu" style="width:30%">
+<img src="images/2.jpg" class="w3-round w3-image " alt="Menu" style="width:30%">
+<img src="images/3.jpg" class="w3-round w3-image " alt="Menu" style="width:30%">
+<img src="images/4.jpg" class="w3-round w3-image " alt="Menu" style="width:30%">
+<img src="images/5.jpg" class="w3-round w3-image " alt="Menu" style="width:30%">
+<img src="images/6.jpg" class="w3-round w3-image " alt="Menu" style="width:30%">
+<img src="images/7.jpg" class="w3-round w3-image " alt="Menu" style="width:30%">
+<img src="images/8.jpg" class="w3-round w3-image " alt="Menu" style="width:30%">
+<img src="images/9.jpg" class="w3-round w3-image " alt="Menu" style="width:30%">
+<img src="images/10.jpg" class="w3-round w3-image " alt="Menu" style="width:30%">
+<img src="images/11.jpg" class="w3-round w3-image " alt="Menu" style="width:30%">
+<img src="images/12.jpg" class="w3-round w3-image " alt="Menu" style="width:30%">
+</div>
+
+</div>
+
+</div>
+
+<!-- Contact -->
+<div id="contact" class="w3-container w3-padding-64">
+<h1 class= "w3-center ;w3-container w3-brown">Contact Us</h1>
+ <div style="text-align:center">
+ 	<p> Dont forget to visit our facebook and instagram!</p>
+  
+    <a href="https://www.facebook.com/Suka-Dessert-102132513835511/" target="_sukaDessert"><img src="images/Facebook.png" width="70px"></a>
+    <a href="https://instagram.com/sukadessert?utm_medium=copy_link" target="_sukadessert"><img src="images/instagram.jpg" width="70px"></a>
+  </div>
+ 
+    </div>
+    <p style="text-align:center">Please drop your feedback :) </p>
+    <div class="content">
+        <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="favorite dessert">Choose your favorite dessert</label>
+        <select id="favorite dessert" name="Choose your favorite dessert">
+          <option value="Choose">Select your favorite dessert</option>
+          <option value="Nutella">Nutella Strawberry Cheesecake</option>
+          <option value="Cadburry">Cadburry Cheesecake</option>
+          <option value="Cheese">Golden Lotus Cheese</option>
+          <option value="Crossiant">Chocolate Crossiant</option>
+          <option value="Cinnamon">Cinnamon Rolls</option>
+          <option value="Cupcake">Cupcake Heaven Topping</option>
+          <option value="Bento">Bento Choc</option>
+          <option value="Pizza">Pizza Brownies</option>
+          <option value="Brownies">Set Brownies Pcs</option>
+          <option value="Cookies">Java Cookies</option>
+          <option value="Donut">Doughnut</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+<div id="location" class="w3-container w3-padding-64">
+<h1 class= "w3-center ;w3-container w3-brown">Location</h1>
+<div style="text-align:center"><p class="w3-text-blue-grey w3-large">
+	<p>
+		<strong>ADDRESS:</strong>
+		<br><b>Jalan Mengat, Kampung Jerangau, 17500 Tanah Merah, Kelantan</b>
+		<br><b>17500 Tanah Merah, Kelantan</b>
+	</p>
+<p><center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.673358365961!2d102.10904851426473!3d5.760062533165976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b68357440c8281%3A0xb0734e55d224524e!2sBig%20Bites%20Cake%20%26%20Bakery!5e0!3m2!1sen!2smy!4v1626830956701!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></center></p>
+
+	<p style="text-align: center;"><center><b><font face="Century Gothic" size="3.5"> Click the location and we are ready to go! </center></b></font></div>
+	<p style="text-align: center;"><center> <font face="Showcard Gothic" size="4.1">	SEE YOU THERE </center></font></div>
+
+</div>  
+
+<!-- End Content -->
+</div>
+
+</body>
+</html> 
